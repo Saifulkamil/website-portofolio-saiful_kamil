@@ -1,0 +1,1228 @@
+@font-face {
+    font-family: 'poppins';
+    src: url(assets/fonts/Poppins-Regular.ttf);
+}
+
+html {
+    /* margin: 0px; */
+    /* padding: 0px; */
+    /* text-decoration: none; */
+    font-family: 'poppins';
+    scroll-behavior: smooth;
+
+}
+
+body {
+    background:
+        /* #1B2027,
+                #454e59 */
+        linear-gradient(#1B2027,
+            #454e59,
+            #1B2027);
+            margin: 0;
+
+}
+
+
+
+header .navBar {
+    position: fixed;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+
+    padding: 5px 5%;
+    height: 50px;
+    right: 0;
+    left: 0;
+    top: 0;
+    /* background: #F1F1F1; */
+    z-index: 100;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 0px 32px 0 rgba(0, 0, 0, 0.37);
+
+
+}
+
+header .navBar #toggle{
+    color: #fdf6fd;
+    display: none;
+}
+#menuNav ul {
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+
+
+/* .navBar .logo {
+    font-size: 25px;
+    font-weight: 700;
+    color:#fdf6fd;
+
+} */
+
+.navBar .logoSize {
+    width: 65px;
+}
+
+.navBar .logo:hover {
+    color: #AAE3E2;
+
+}
+
+.navBar #menuNav a {
+    text-decoration-line: none;
+    color: #fdf6fd;
+
+    /* cursor: pointer; */
+
+}
+
+.navBar #menuNav a:hover {
+    color: #AAE3E2;
+
+
+}
+
+
+.logo {
+    text-decoration-line: none;
+    color: black;
+}
+
+main .content #home {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+main .content #home .home_content {
+    padding: 0 10rem 0 0;
+}
+
+
+
+
+main .content #home .home_content .logoSosmed {
+    display: inline-flex;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    background: transparent;
+    border-radius: 30%;
+    text-decoration: none;
+    margin: 15px 20px 20px 0;
+    text-align: center;
+    font-size: 35px;
+    color: #AAE3E2;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+}
+
+main .content #home .home_content .hi {
+    margin: -2px 0;
+    color: #fdf6fd;
+
+}
+
+main .content #home .home_content .name {
+    font-size: 40px;
+    margin: 5px 0;
+    color: #fdf6fd;
+
+}
+
+main .content #home .home_content p {
+    margin: 5px 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fdf6fd;
+
+}
+
+main .content span {
+    color: #00ADB5;
+    ;
+}
+
+.content .imgContent {
+   width: 30rem;
+  
+}
+
+main .content #home .home_content .btn {
+    margin-top: -20px;
+}
+
+main .content #home .home_content .btn_D {
+    border-radius: 7px;
+    margin: 20px 0 0;
+
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    border: none;
+    width: 150px;
+    height: 35px;
+    font-size: 17px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 0.1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+
+}
+
+main .content #home .home_content .logoSosmed:hover {
+    background: #AAE3E2;
+    color: #1B2027;
+
+}
+
+main .content #home .home_content .btn_D:hover {
+    width: 150px;
+    height: 35px;
+    /* border: 2px solid #71A591; */
+    background: #AAE3E2;
+    color: #1B2027;
+}
+
+
+
+/* 
+=============================
+
+ABOUT
+
+============================= 
+*/
+
+
+main .content #about {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+main .content #about .imgContentAbout {
+    width: 30rem;
+}
+
+main .content #about .about_content .hi {
+    font-size: 24px;
+    color: #fdf6fd;
+
+
+}
+
+main .content #about .about_content .hi1 {
+    font-size: 20px;
+    color: #fdf6fd;
+    margin: -5px 0 -10px;
+
+
+}
+
+main .content #about .about_content {
+    /* padding: 0 10rem 10rem 200px; */
+    align-items: center;
+    /* width: 54rem; */
+    margin: 0 10px;
+
+}
+
+main .content #about .about_content p {
+    font-size: 18px;
+    color: #fdf6fd;
+    /* font-weight: 700; */
+}
+
+main .content #about .about_content .isi_a {
+    margin: -15px 0;
+    padding: 25px 0;
+    /* height: 40px; */
+
+}
+
+
+main .content #about .about_content .btn_D {
+    border-radius: 7px;
+    margin: 10px 0 0 20px;
+
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    border: none;
+    width: 150px;
+    height: 35px;
+    font-size: 17px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(21, 21, 21, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 0.1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+}
+
+main .content #about .about_content .btn_D:hover {
+    background: #AAE3E2;
+    color: #454e59;
+    width: 150px;
+    height: 35px;
+    /* border: 2px solid #71A591; */
+}
+
+
+
+main .content #about .about_content .showMore {
+    color: #fdf6fd;
+
+
+}
+
+main .content #about .about_content .bold {
+    font-weight: 700;
+    margin: 100px 0;
+
+    color: #fdf6fd;
+}
+
+/* 
+=============================
+
+ABOUT
+
+============================= 
+*/
+
+main .content #skill {
+    padding-top: 65px;
+    /* text-align: center; */
+
+}
+
+main .content .judul {
+    color: #fdf6fd;
+    font-size: 30px;
+    margin: 0 0 -5px;
+}
+
+
+main .content #skill .cover {
+    display: flex;
+    padding: 0 5px;
+}
+
+main .content #skill .desc .titik1 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    background: rgb(29, 195, 29);
+    height: 20px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+    border-radius: 50%;
+}
+
+main .content #skill .desc .titik2 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    background: rgb(206, 206, 45);
+    border-radius: 50%;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+}
+
+main .content #skill .desc .titik3 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    background: rgb(163, 41, 41);
+    border-radius: 50%;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+}
+
+main .content #skill .desc {
+    display: flex;
+    gap: 10px;
+    padding-left: 10rem;
+    margin-bottom: -60px;
+    color: #fdf6fd;
+
+
+}
+
+main .content #skill .cover .warp {
+    display: flex;
+    gap: 35px;
+    overflow: auto;
+    margin: 0 0 10px;
+    padding: 0 20px;
+
+}
+
+main .content #skill .arrow i {
+    display: inline-flex;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 35px;
+    width: 45px;
+    height: 45px;
+    background: #fdf6fd;
+    ;
+    text-align: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #454e59;
+    position: relative;
+    
+    top: 50%;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+
+}
+
+
+main .content #skill .warp::-webkit-scrollbar {
+    width: 0;
+}
+
+
+
+main .content #skill .warp .garis3 {
+    width: 20px;
+    height: 20px;
+    background: rgb(163, 41, 41);
+    border-radius: 50%;
+    margin: 10px 0 -25px 10px;
+    text-align: center;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+}
+
+main .content #skill .warp .garis2 {
+    width: 20px;
+    height: 20px;
+    background: rgb(206, 206, 45);
+    border-radius: 50%;
+    margin: 10px 0 -25px 10px;
+    text-align: center;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+}
+
+main .content #skill .warp .garis1 {
+    width: 20px;
+    height: 20px;
+    background: rgb(29, 195, 29);
+    border-radius: 50%;
+    margin: 10px 0 -25px 10px;
+    text-align: center;
+}
+
+
+
+/* ========================================================================== */
+/* ========================================================================== */
+/* ========================================================================== */
+
+main .content #skill .warp .box1 {
+    min-width: 22rem;
+    text-align: center;
+    border-radius: 15px;
+    margin: 5% 0;
+    align-items: center;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 0.1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    
+}
+
+main .content #skill .warp .box1 p {
+
+    /* width: 20rem; */
+    text-align: left;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 0px 25px 0;
+    color: #fdf6fd;
+
+}
+
+main .content #skill .warp .box1 h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 15px 0 -10px;
+    color: #fdf6fd;
+
+}
+
+main .content #skill .warp .box1 .imgSkill i {
+    display: inline-flex;
+    justify-content: center;
+    width: 20px;
+    align-items: center;
+    background: transparent;
+    border-radius: 30%;
+    text-decoration: none;
+    margin: 0px 20px 0;
+    font-size: 100px;
+    color: #5AC0EB;
+}
+
+/* ========================================================================== */
+/* ========================================================================== */
+/* ========================================================================== */
+
+main .content #skill .warp .box2 {
+    min-width: 23rem;
+    text-align: center;
+    border-radius: 15px;
+    margin: 5% 0;
+    align-items: center;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 0.1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+main .content #skill .warp .box2 p {
+
+    /* width: 20rem; */
+    text-align: left;
+    /* justify-content: center; */
+    font-size: 12px;
+    align-items: center;
+    padding: 0px 25px 0;
+    color: #fdf6fd;
+
+}
+
+main .content #skill .warp .box2 h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 15px 0 -10px;
+    color: #fdf6fd;
+
+}
+
+main .content #skill .warp .box2 .imgSkill i {
+    display: inline-flex;
+    justify-content: center;
+    width: 20px;
+    align-items: center;
+    background: transparent;
+    border-radius: 30%;
+    text-decoration: none;
+    margin: 0px 20px 0;
+    font-size: 100px;
+    color: greenyellow;
+}
+
+
+
+/* =========================================================================================
+                    =========================================================================================
+                    ========================================================================================= */
+
+main .content #skill .warp .box3 {
+    min-width: 22rem;
+    text-align: center;
+    border-radius: 15px;
+    margin: 5% 0;
+    align-items: center;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 0.1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+main .content #skill .warp .box3 p {
+
+    /* width: 20rem; */
+    text-align: left;
+    /* justify-content: center; */
+    font-size: 13.3px;
+    align-items: center;
+    padding: 0px 25px 0;
+    color: #fdf6fd;
+
+}
+
+main .content #skill .warp .box3 h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 15px 0 -10px;
+    color: #fdf6fd;
+
+}
+
+main .content #skill .warp .box3 .imgSkill i {
+    display: inline-flex;
+    justify-content: center;
+    width: 20px;
+    align-items: center;
+    background: transparent;
+    border-radius: 30%;
+    text-decoration: none;
+    margin: 0px 20px 0;
+    font-size: 100px;
+    color: blue;
+
+
+}
+
+
+
+
+/* ========================================================================== */
+/* ========================================================================== */
+/* ========================================================================== */
+
+main .content #skill .warp .box4 {
+    min-width: 22rem;
+    text-align: center;
+    border-radius: 15px;
+    margin: 5% 0;
+    align-items: center;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 0.1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+main .content #skill .warp .box4 p {
+
+    /* width: 20rem; */
+    text-align: left;
+    /* justify-content: center; */
+    font-size: 12.5px;
+    align-items: center;
+    padding: 0px 25px 0;
+    color: #fdf6fd;
+
+}
+
+main .content #skill .warp .box4 h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 15px 0 -10px;
+    color: #fdf6fd;
+
+}
+
+main .content #skill .warp .box4 .imgSkill i {
+    display: inline-flex;
+    justify-content: center;
+    width: 20px;
+    align-items: center;
+    background: transparent;
+    border-radius: 30%;
+    text-decoration: none;
+    margin: 0px 20px 0;
+    font-size: 100px;
+    color: #66ff00;
+}
+
+
+/* ========================================================================== */
+/* ========================================================================== */
+/* ========================================================================== */
+
+main .content #skill .warp .box5 {
+    min-width: 22rem;
+    text-align: center;
+    border-radius: 15px;
+    margin: 5% 0;
+    align-items: center;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 0.1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+main .content #skill .warp .box5 p {
+
+    /* width: 20rem; */
+    text-align: left;
+    /* justify-content: center; */
+    font-size: 13px;
+    align-items: center;
+    padding: 0px 25px 0;
+    color: #fdf6fd;
+
+}
+
+main .content #skill .warp .box5 h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 15px 0 -10px;
+    color: #fdf6fd;
+
+}
+
+main .content #skill .warp .box5 .imgSkill i {
+    display: inline-flex;
+    justify-content: center;
+    width: 20px;
+    align-items: center;
+    background: transparent;
+    border-radius: 30%;
+    text-decoration: none;
+    margin: 0px 20px 0;
+    font-size: 100px;
+    color: #542079;
+}
+
+
+
+/* 
+=============================
+
+Project
+
+============================= 
+*/
+
+main .content #project {
+    text-align: center;
+    padding-top: 70px;
+}
+
+main .content h2 {
+    text-align: center;
+    color: #71A591;
+    margin: 0 0 10px;
+
+}
+
+main .content #project .warp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 70px;
+    margin: 0 0 60px;
+
+}
+
+main .content #project .warp .box {
+    width: 25rem;
+    text-align: center;
+    border-radius: 15px;
+    margin: 5% 0;
+    align-items: center;
+}
+
+main .content #project .warp .box p {
+
+    /* width: 20rem; */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 25px;
+    color: #fdf6fd;
+
+
+}
+
+main .content #project .warp .box h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 15px 0 -10px;
+    color: #fdf6fd;
+
+}
+
+main .content #project .warp .box .imgSkill {
+    display: inline-flex;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    background: transparent;
+    border-radius: 30%;
+    text-decoration: none;
+    margin: 50px 20px 0;
+    font-size: 100px;
+    color: #FDFFF3;
+}
+
+main .content #project .imgProjet {
+    width: 15rem;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+
+}
+
+
+
+
+/* 
+=============================
+
+Project
+
+============================= 
+*/
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    background: rgba(255, 255, 255, 0.1);
+    /* background: linear-gradient(150deg, rgba(255,255,255,0.1),rgba(255,255,255,0) ); */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    /* border: 0.1px solid rgba(255,255,255,0.18); */
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    padding: 0;
+    margin: 0;
+
+}
+
+footer p {
+    /* margin: 0; */
+    color: white;
+    /* padding: ; */
+
+}
+
+
+@media(max-width: 650px) { 
+    header .navBar .logoSize{
+    width: 45px;
+    padding-top: 10px;
+
+    } 
+    header .navBar {
+        position: fixed;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        padding: 5px 5%;
+        height: 30px;
+        right: 0;
+        left: 0;
+        top: 0;
+        /* background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px); */
+    
+    
+    }
+    #menuNav {
+        display: none;
+    }
+    #menuNav.show{
+        display: flex;
+        /* gap: 10px; */
+        
+    }
+    
+    
+    header .navBar #menuNav ul{
+        /* display: none; */
+        flex-direction: column;
+        position: absolute;
+        top: 40px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        gap: 10px;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+        backdrop-filter: blur(10px);
+
+        
+    }
+   
+    header .navBar #toggle {
+        display: block;
+        color: #fdf6fd;
+    }
+    main .content #home {
+        display: block;
+        justify-content: space-around;
+        padding-top: 30px;
+        text-align: center;
+        align-items: center;
+
+    
+    }
+    main .content #home .imgContent{
+        width: 17rem;
+        text-align: center;
+
+    }
+    main .content #home .home_content{
+        display: block;
+        justify-content: space-around;
+        text-align: center;
+        align-items: center;
+        padding: 0 0;
+    }
+    main .content #about .imgContentAbout{
+    width: 17rem;
+    text-align: center;
+
+    }
+    main .content #about {
+        display: block;
+        justify-content: space-around;
+        padding-top: 40px;
+        text-align: center;
+        align-items: center;
+
+    
+    }
+    main .content #about .about_content{
+        display: block;
+        justify-content: space-around;
+        text-align: center;
+        align-items: center;
+        padding: 10px 0;
+    }
+    main .content #about .about_content .hi{
+        margin: -20px 0 20px;
+    }
+    main .content #about .about_content .hi1{
+        margin: -20px 0 10px;
+    }
+    main .content #about .about_content .isi_a{
+     
+       margin: -32px 0;
+    padding: 25px 0;
+    font-size: 12px;
+    }
+
+    main .content #skill {
+        padding-top: 45px;
+    }
+    main .content #skill .judul{
+        font-size: 20px;
+    }
+    
+    
+    main .content #skill .desc {
+        display: flex;
+        gap: 10px;
+        padding: 0 0 0 10px;
+    
+    
+    }
+    main .content #skill .desc p{
+        font-size: 12px;
+    
+    
+    }
+    main .content #skill .cover {
+        display: flex;
+        padding: 0 5px;
+    }
+    
+    main .content #skill .desc .titik1 {
+       
+        width: 13px;
+        height: 13px;
+        background: rgb(29, 195, 29);
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+        border-radius: 50%;
+    }
+    
+    main .content #skill .desc .titik2 {
+
+        width: 13px;
+        height: 13px;
+        background: rgb(206, 206, 45);
+        border-radius: 50%;
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    
+    }
+    
+    main .content #skill .desc .titik3 {
+    
+        width: 13px;
+        height: 13px;
+        background: rgb(163, 41, 41);
+        border-radius: 50%;
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    
+    }
+    main .content #skill .cover {
+        padding-top: 50px;
+    }
+
+    main .content #skill .warp .box1 {
+        min-width: 13rem;
+        text-align: center;
+        border-radius: 10px;
+        align-items: center;
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border: 0.1px solid rgba(255, 255, 255, 0.18);
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    }
+    
+    main .content #skill .warp .box1 p {
+    
+        width: 11rem;
+        text-align: left;
+        padding: 0px 15px 0;
+        font-size: 10px;
+    
+    }
+    
+    main .content #skill .warp .box1 h4 {
+        font-size: 15px;
+        font-weight: 600;
+    
+    }
+    
+    main .content #skill .warp .box1 .imgSkill i {
+        display: inline-flex;
+        justify-content: center;
+        width: 20px;
+        align-items: center;
+        background: transparent;
+        border-radius: 30%;
+        text-decoration: none;
+        margin: 0px 20px 0;
+        font-size: 50px;
+        color: #5AC0EB;
+        padding: 10px 0;
+
+    }
+    
+
+
+
+
+    main .content #skill .warp .box2 {
+        min-width: 15rem;
+        text-align: center;
+        border-radius: 10px;
+        align-items: center;
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border: 0.1px solid rgba(255, 255, 255, 0.18);
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    }
+    
+    main .content #skill .warp .box2 p {
+    
+        width: 13.5rem;
+        text-align: left;
+        padding: 0px 15px 0;
+        font-size: 10px;
+    
+    }
+    
+    main .content #skill .warp .box2 h4 {
+        font-size: 15px;
+        font-weight: 600;
+        margin: -5px 0;
+    
+    }
+    
+    main .content #skill .warp .box2 .imgSkill i {
+        display: inline-flex;
+        justify-content: center;
+        width: 20px;
+        align-items: center;
+        background: transparent;
+        border-radius: 30%;
+        text-decoration: none;
+        margin: 0px 20px 0;
+        font-size: 50px;
+        color: #adff2f;
+        padding: 10px 0;
+    }
+
+
+
+    main .content #skill .warp .box3 {
+        min-width: 15rem;
+        text-align: center;
+        border-radius: 10px;
+        align-items: center;
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border: 0.1px solid rgba(255, 255, 255, 0.18);
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    }
+    
+    main .content #skill .warp .box3 p {
+    
+        width: 13rem;
+        text-align: left;
+        padding: 0px 15px 0;
+        font-size: 10px;
+    
+    }
+    
+    main .content #skill .warp .box3 h4 {
+        font-size: 15px;
+        font-weight: 600;
+        margin: -5px 0;
+
+    
+    }
+    
+    main .content #skill .warp .box3 .imgSkill i {
+        display: inline-flex;
+        justify-content: center;
+        width: 20px;
+        align-items: center;
+        background: transparent;
+        border-radius: 30%;
+        text-decoration: none;
+        margin: 0px 20px 0;
+        font-size: 50px;
+        color: #0000ff;
+        padding: 10px 0;
+
+        
+    }
+    
+
+
+    main .content #skill .warp .box4 {
+        min-width: 15rem;
+        text-align: center;
+        border-radius: 10px;
+        align-items: center;
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border: 0.1px solid rgba(255, 255, 255, 0.18);
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    }
+    
+    main .content #skill .warp .box4 p {
+    
+        width: 13rem;
+        text-align: left;
+        padding: 0px 15px 0;
+        font-size: 10px;
+    
+    }
+    
+    main .content #skill .warp .box4 h4 {
+        font-size: 15px;
+        font-weight: 600;
+        margin: -5px 0;
+
+    
+    }
+    
+    main .content #skill .warp .box4 .imgSkill i {
+        display: inline-flex;
+        justify-content: center;
+        width: 20px;
+        align-items: center;
+        background: transparent;
+        border-radius: 30%;
+        text-decoration: none;
+        margin: 0px 20px 0;
+        font-size: 50px;
+        color: #66ff00;
+        padding: 10px 0;
+
+    }
+
+
+
+
+
+    main .content #skill .warp .box5 {
+        min-width: 15rem;
+        text-align: center;
+        border-radius: 10px;
+        align-items: center;
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border: 0.1px solid rgba(255, 255, 255, 0.18);
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    }
+    
+    main .content #skill .warp .box5 p {
+    
+        width: 13rem;
+        text-align: left;
+        padding: 0px 15px 0;
+        font-size: 10px;
+    
+    }
+    
+    main .content #skill .warp .box5 h4 {
+        font-size: 15px;
+        font-weight: 600;
+        margin: -5px 0;
+
+    
+    }
+    
+    main .content #skill .warp .box5 .imgSkill i {
+        display: inline-flex;
+        justify-content: center;
+        width: 20px;
+        align-items: center;
+        background: transparent;
+        border-radius: 30%;
+        text-decoration: none;
+        margin: 0px 20px 0;
+        font-size: 50px;
+        color: #542079;
+        padding: 10px 0;
+
+    }
+    main .content #skill .arrow i {
+      
+        font-size: 25px;
+        width: 25px;
+        height: 25px;
+    
+    }
+
+    
+}
